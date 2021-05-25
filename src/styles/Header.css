@@ -1,0 +1,129 @@
+.body{
+    height: 72px;
+    width: 1366px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #0064EB;
+}
+
+.divider{
+    height: 0px;
+    width: 1366.0000000000052px;
+    left: 0px;
+    top: 72px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+    border: 1px solid #D4D8DD;
+}
+
+.frame{
+    height: 40px;
+    width: 41.0186767578125px;
+    left: 41px;
+    top: 16px;
+    border-radius: 0px;
+    position: absolute;
+    width: 41.02px;
+    height: 40px;
+    left: 41px;
+    top: 16px;
+}
+
+.group-287{
+    height: 40px;
+    width: 500px;
+    left: 104px;
+    top: 16px;
+    border-radius: 0px;
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 104px;
+    top: 16px;    
+}
+
+.rectangle-1{
+    height: 40px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.text-arrow{
+    height: 24px;
+    width: 472px;
+    left: 14px;
+    top: 8px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    height: 24px;
+    left: 14px;
+    right: 14px;
+    top: 8px;
+}
+
+.icon-text{
+    height: 24px;
+    width: 472px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 472px;
+    height: 24px;
+}
+
+.search-text{
+    height: 24px;
+    width: 256px;
+    left: 30px;
+    top: 0px;
+    border-radius: nullpx;
+    position: static;
+    height: 24px;
+    left: 6.36%;
+    right: 39.41%;
+    top: calc(50% - 24px/2);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 6px;
+    border:none;
+    outline:none;
+}
+
+
