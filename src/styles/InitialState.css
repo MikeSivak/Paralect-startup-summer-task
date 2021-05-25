@@ -1,0 +1,46 @@
+.group-299{
+    height: 196px;
+    width: 210px;
+    border-radius: 0px;
+    position: absolute;
+    left: 578px;
+    top: 269px;
+}
+
+.group-icon-search{
+    height: 110px;
+    width: 110px;
+    border-radius: 0px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: calc(22.916748046875px * 2);
+}
+
+.search-image{
+    position: absolute;
+    left: 20.83%;
+    right: 20.83%;
+    top: 20.83%;
+    bottom: 20.83%;
+}
+
+.lbl-instruct{
+    height: 62px;
+    width: 210px;
+    left: 578px;
+    top: 403px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 62px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 62px/2 + 67px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #808080;
+}

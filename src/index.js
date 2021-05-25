@@ -3,16 +3,22 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header.js';
+import InitialState from './components/InitialState.js';
 import './styles/fonts.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+      <Header />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('header')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+ReactDOM.render(
+  <React.StrictMode>
+      <InitialState />
+  </React.StrictMode>,
+  document.getElementById('main')
+);
+
+
 reportWebVitals();
