@@ -1,0 +1,304 @@
+.ms-group-289{
+    height: 431.9819641113281px;
+    width: 292.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    left: 56px;
+    top: 112px;
+}
+
+.ms-group-288{
+    height: 280px;
+    width: 280.9688720703125px;
+    border-radius: 0px;
+    position: absolute;   
+}
+
+.ms-profile-photo{
+    height: 280px;
+    width: 280.9688720703125px;
+    border-radius: 100%;
+    position: absolute;
+    background: #C4C4C4;
+}
+
+.ms-group-296{
+    height: 123.98196411132812px;
+    width: 292.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    width: 292.08px;
+    height: 123.98px;
+    top: 308px;
+}
+
+.ms-group-302{
+    height: 24.24322509765625px;
+    width: 292.0830078125px;
+    top: 100px;
+    border-radius: 0px;
+    position: absolute;
+    width: 292.08px;
+    height: 24.24px;
+}
+
+.ms-lbl-username{
+    height: 34px;
+    width: 170px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 34px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.ms-lbl-nickname{
+    height: 28.738739013671875px;
+    width: 80.5251235961914px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 28.74px;
+    top: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0064EB;        
+}
+
+.ms-group-300{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    left: 163px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.ms-group-301{
+    height: 24.24322509765625px;
+    width: 147px;
+    border-radius: 0px;
+    position: absolute;
+    width: 147px;
+    height: 24.24px;
+}
+
+.ms-lbl-followers{
+    height: 24px;
+    width: 115px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 22%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.ms-group-293{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.ms-group-292{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    width: 129.08px;
+    height: 24.24px;
+}
+
+.ms-lbl-following{
+    height: 24px;
+    width: 97px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 25%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.ms-lbl-repo-count{
+    height: 42px;
+    width: 289px;
+    left: 435px;
+    top: 100px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 42px;
+    left: 31.84%;
+    right: 47%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.ms-group-294{
+    height: 112px;
+    width: 877px;
+    left: 433px;
+    top: 171px;
+    border-radius: 6px;
+    position: absolute;
+    width: 877px;
+    height: 112px;
+    left: 433px;
+    top: 171px;
+    background-color:rgb(135, 199, 199);
+}
+
+.ms-group-294-content{
+    height: 112px;
+    width: 877px;
+    border-radius: 6px;
+    padding: 24px, 32px, 24px, 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px;
+    position: absolute;
+    width: 877px;
+    height: 112px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.ms-lbl-repo-name{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: static;
+    height: 29px;
+    left: 3.65%;
+    right: 74.57%;
+    top: calc(50% - 29px/2 - 17.5px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0064EB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.ms-lbl-repo-descript{
+    height: 19px;
+    width: 586px;
+    left: 32px;
+    top: 69px;
+    border-radius: nullpx;
+    position: static;
+    height: 19px;
+    left: 3.65%;
+    right: 29.53%;
+    top: calc(50% - 19px/2 + 22.5px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.ms-pagination{
+    height: 25px;
+    width: 337px;
+    left: 960px;
+    top: 715px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 337px;
+    height: 25px;
+    left: 960px;
+    top: 715px;
+    /* background-color:white; */
+}
+
+.ms-pagination-name{
+    height: 21px;
+    width: 111px;
+    left: 0px;
+    top: 2px;
+    border-radius: nullpx;
+    position: static;
+    width: 111px;
+    height: 21px;
+    left: 0px;
+    top: 2px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px 0px 0px;
+}
+
+.ms-pagination-number{
+    height: 21px;
+    width: 7px;
+    left: 167px;
+    top: 2px;
+    border-radius: nullpx;
+    position: static;
+    width: 7px;
+    height: 21px;
+    left: 167px;
+    top: 2px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 12px;   
+    float:left; 
+}
+
+.pages{
+    width:100%;
+}

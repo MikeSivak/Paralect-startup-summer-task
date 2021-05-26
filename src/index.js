@@ -6,6 +6,7 @@ import Header from './components/Header.js';
 import InitialState from './components/InitialState.js';
 import UserNotFound from './components/UserNotFound.js';
 import RepoNotFound from './components/RepoNotFound.js';
+import MainScreen from './components/MainScreen.js';
 import './styles/fonts.css'
 
 ReactDOM.render(
@@ -14,7 +15,8 @@ ReactDOM.render(
       <Header />
       {/* <InitialState /> */}
       {/* <UserNotFound/> */}
-      <RepoNotFound/>
+      {/* <RepoNotFound/> */}
+      <MainScreen/>
     </div>
   </React.StrictMode>,
   document.getElementById('header')
