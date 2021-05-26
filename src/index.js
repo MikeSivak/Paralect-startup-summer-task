@@ -4,21 +4,28 @@ import './styles/index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header.js';
 import InitialState from './components/InitialState.js';
+import UserNotFound from './components/UserNotFound.js';
+import RepoNotFound from './components/RepoNotFound.js';
 import './styles/fonts.css'
 
 ReactDOM.render(
   <React.StrictMode>
+    <div>
       <Header />
+      {/* <InitialState /> */}
+      {/* <UserNotFound/> */}
+      <RepoNotFound/>
+    </div>
   </React.StrictMode>,
   document.getElementById('header')
 );
 
-ReactDOM.render(
-  <React.StrictMode>
-      <InitialState />
-  </React.StrictMode>,
-  document.getElementById('main')
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//       <InitialState />
+//   </React.StrictMode>,
+//   document.getElementById('main')
+// );
 
 
 reportWebVitals();

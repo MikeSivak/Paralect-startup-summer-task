@@ -1,4 +1,4 @@
-.is-group-299{
+.unf-group-299{
     height: 196px;
     width: 210px;
     border-radius: 0px;
@@ -7,7 +7,7 @@
     top: 269px;
 }
 
-.is-group-icon-search{
+.unf-group-icon-search{
     height: 110px;
     width: 110px;
     border-radius: 0px;
@@ -17,7 +17,7 @@
     left: calc(22.916748046875px * 2);
 }
 
-.is-search-image{
+.unf-search-image{
     position: absolute;
     left: 20.83%;
     right: 20.83%;
@@ -25,7 +25,7 @@
     bottom: 20.83%;
 }
 
-.is-lbl-instruct{
+.unf-lbl-instruct{
     height: 62px;
     width: 210px;
     left: 578px;

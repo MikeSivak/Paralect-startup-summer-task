@@ -1,0 +1,177 @@
+.rnf-group-299{
+    height: 165px;
+    width: 243px;
+    border-radius: 0px;
+    position: absolute;
+    left: 751px;
+    top: 269px;
+}
+
+.rnf-group-icon-search{
+    height: 110px;
+    width: 110px;
+    border-radius: 0px;
+    position: absolute;
+    left: calc(22px * 3);
+}
+
+.rnf-search-image{
+    position: absolute;
+    left: 15.45%;
+    right: 15.45%;
+    top: 21.82%;
+    bottom: 21.82%;
+}
+
+.rnf-lbl-instruct{
+    border-radius: nullpx;
+    position: absolute;
+    height: 62px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 62px/2 + 67px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #808080;
+    height: 31px;
+    width: 243px;
+    border-radius: nullpx;
+}
+
+.rnf-group-289{
+    height: 431.9819641113281px;
+    width: 292.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    left: 56px;
+    top: 112px;
+}
+
+.rnf-group-288{
+    height: 280px;
+    width: 280.9688720703125px;
+    border-radius: 0px;
+    position: absolute;   
+}
+
+.rnf-profile-photo{
+    height: 280px;
+    width: 280.9688720703125px;
+    border-radius: 100%;
+    position: absolute;
+    background: #C4C4C4;
+}
+
+.rnf-group-296{
+    height: 123.98196411132812px;
+    width: 292.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    width: 292.08px;
+    height: 123.98px;
+    top: 308px;
+}
+
+.rnf-group-302{
+    height: 24.24322509765625px;
+    width: 292.0830078125px;
+    top: 100px;
+    border-radius: 0px;
+    position: absolute;
+    width: 292.08px;
+    height: 24.24px;
+}
+
+.rnf-lbl-username{
+    height: 34px;
+    width: 170px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 34px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.rnf-lbl-nickname{
+    height: 28.738739013671875px;
+    width: 80.5251235961914px;
+    border-radius: nullpx;
+    position: absolute;
+    height: 28.74px;
+    top: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0064EB;        
+}
+
+.rnf-group-300{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    left: 163px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.rnf-group-301{
+    height: 24.24322509765625px;
+    width: 147px;
+    border-radius: 0px;
+    position: absolute;
+    width: 147px;
+    height: 24.24px;
+}
+
+.rnf-lbl-followers{
+    height: 24px;
+    width: 115px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 22%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.rnf-group-293{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.rnf-group-292{
+    height: 24.24322509765625px;
+    width: 129.0830078125px;
+    border-radius: 0px;
+    position: absolute;
+    width: 129.08px;
+    height: 24.24px;
+}
+
+.rnf-lbl-following{
+    height: 24px;
+    width: 97px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 25%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
