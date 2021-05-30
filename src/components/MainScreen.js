@@ -28,8 +28,6 @@ class MainScreen extends React.Component {
         this.getData();
     }
 
-
-
     render() {
         return (
             <div>

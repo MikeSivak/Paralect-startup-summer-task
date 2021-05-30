@@ -19,7 +19,6 @@ ReactDOM.render(
           <InitialState />
         </Route>
         <Route exact path='/MainScreen/:username' render={(props)=><MainScreen {...props}/>}>
-          {/* <MainScreen /> */}
         </Route>
         <Route exact path='/RepoNotFound'>
           <RepoNotFound />
