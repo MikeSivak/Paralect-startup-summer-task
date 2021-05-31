@@ -10,8 +10,13 @@ class Header extends React.Component {
                 axios.get(`https://api.github.com/users/${userName}`)
                     .then(() => {
                         axios.get(`https://api.github.com/users/${userName}/repos`)
-                            .then(() => {
-                                window.location.href = `/MainScreen/${userName}`;
+                            .then((res) => {
+                                if((res.data).length === 0){
+                                    window.location.href = `/RepoNotFound/${userName}`;    
+                                }
+                                else{
+                                    window.location.href = `/MainScreen/${userName}`;
+                                }
                             })
                             .catch(()=>{
                                 window.location.href = `/RepoNotFound/${userName}`;

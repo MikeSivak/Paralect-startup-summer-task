@@ -11,12 +11,13 @@ class RepoNotFound extends React.Component {
     }
 
     getData = () => {
-        axios.get(`https://api.github.com/users/MikeSivak/repos`)
+        let username = this.props.match.params.username;
+        axios.get(`https://api.github.com/users/${username}/repos`)
             .then(res => {
                 const repos = res.data;
                 this.setState({ repos });
             });
-        axios.get(`https://api.github.com/users/MikeSivak`)
+        axios.get(`https://api.github.com/users/${username}`)
             .then(res => {
                 const user = res.data;
                 this.setState({ user });

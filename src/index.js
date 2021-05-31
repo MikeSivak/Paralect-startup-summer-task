@@ -20,8 +20,7 @@ ReactDOM.render(
         </Route>
         <Route exact path='/MainScreen/:username' render={(props)=><MainScreen {...props}/>}>
         </Route>
-        <Route exact path='/RepoNotFound'>
-          <RepoNotFound />
+        <Route exact path='/RepoNotFound/:username' render={(props)=><RepoNotFound {...props}/>}>
         </Route>
         <Route exact path='/UserNotFound'>
           <UserNotFound />

@@ -17,23 +17,23 @@ class PaginateBlock extends React.Component {
 
     receivedData() {
         axios
-            .get(`https://jsonplaceholder.typicode.com/photos`)
+            .get(`https://api.github.com/users/repos`)
             .then(res => {
-                const data = this.props.repoList;
-                const slice = data.slice(this.state.offset, this.state.offset + this.state.perPage);
-                const postData = slice.map(repo =>
-                    <div className='ms-group-294'>
-                        <div className='ms-group-294-content'>
-                            <label className='ms-lbl-repo-name'><a rel="noopener noreferrer" href={(repo.url).replace('api.', '').replace('repos/', '')} target='_blank'>{repo.name}</a></label>
-                            <label className='ms-lbl-repo-descript'>{repo.description}</label>
-                        </div>
-                    </div>
-                )
-                this.setState({
-                    pageCount: Math.ceil(data.length / this.state.perPage),
-                    postData
-                })
-            });
+        const data = this.props.repoList;
+        const slice = data.slice(this.state.offset, this.state.offset + this.state.perPage);
+        const postData = slice.map(repo =>
+            <div className='ms-group-294'>
+                <div className='ms-group-294-content'>
+                    <label className='ms-lbl-repo-name'><a rel="noopener noreferrer" href={(repo.url).replace('api.', '').replace('repos/', '')} target='_blank'>{repo.name}</a></label>
+                    <label className='ms-lbl-repo-descript'>{repo.description}</label>
+                </div>
+            </div>
+        )
+        this.setState({
+            pageCount: Math.ceil(data.length / this.state.perPage),
+            postData
+        })
+        });
     }
 
     handlePageClick = (e) => {
