@@ -27,6 +27,24 @@
     }
 }
 
+@media screen and (max-width: 468px) {
+    .unf-group-299{
+        left:28%;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .unf-group-299{
+        left:24%;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .unf-group-299{
+        left:18%;
+    }
+}
+
 .unf-group-icon-search{
     height: 110px;
     width: 110px;

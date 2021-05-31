@@ -1,6 +1,6 @@
 .header-body{
     height: 72px;
-    width:100%;
+    width:100% !important;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -71,7 +71,7 @@
 .text-arrow{
     height: 24px;
     /* width: 472px; */
-    width:100%;
+    width:85%;
     left: 14px;
     top: 8px;
     border-radius: 0px;
@@ -88,8 +88,6 @@
 
 .icon-text{
     height: 24px;
-    /* width: 472px; */
-    width:100%;
     border-radius: 0px;
     display: flex;
     flex-direction: row;
@@ -102,13 +100,51 @@
 
 @media screen and (max-width: 768px) {
     .search-text{
-        width: 35% !important;
+        width: 100% !important;
+    }
+    .icon-text{
+        width: 85% !important;
     }
 }
 
 @media screen and (max-width: 586px) {
     .group-287{
         width: 213px !important;
+    }
+}
+
+@media screen and (max-width: 594px){
+    .text-arrow{
+        width: 184.781px;
+
+    }
+    .search-tet{
+        width: 157.062px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .frame{
+        left: 5%;
+    }
+    .group-287{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .group-287{
+        margin-top: 60px;
+        left:17%;
+    }
+    .frame{
+        left: 44%;
+    }
+    .header{
+        height:144px;
+    }
+    .header-body{
+        height:144px;
     }
 }
 
