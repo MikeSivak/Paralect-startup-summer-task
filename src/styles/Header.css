@@ -1,6 +1,6 @@
 .header-body{
     height: 72px;
-    width: 1366px;
+    width:100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -14,7 +14,7 @@
 
 .divider{
     height: 0px;
-    width: 1366.0000000000052px;
+    width:100%;
     left: 0px;
     top: 72px;
     border-radius: nullpx;
@@ -41,7 +41,7 @@
 
 .group-287{
     height: 40px;
-    width: 500px;
+    width:36.6% !important;
     left: 104px;
     top: 16px;
     border-radius: 0px;
@@ -54,7 +54,8 @@
 
 .rectangle-1{
     height: 40px;
-    width: 500px;
+    /* width: 500px; */
+    width:100%;
     left: 0px;
     top: 0px;
     border-radius: 6px;
@@ -69,7 +70,8 @@
 
 .text-arrow{
     height: 24px;
-    width: 472px;
+    /* width: 472px; */
+    width:100%;
     left: 14px;
     top: 8px;
     border-radius: 0px;
@@ -86,7 +88,8 @@
 
 .icon-text{
     height: 24px;
-    width: 472px;
+    /* width: 472px; */
+    width:100%;
     border-radius: 0px;
     display: flex;
     flex-direction: row;
@@ -97,9 +100,21 @@
     height: 24px;
 }
 
+@media screen and (max-width: 768px) {
+    .search-text{
+        width: 35% !important;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .group-287{
+        width: 213px !important;
+    }
+}
+
 .search-text{
     height: 24px;
-    width: 256px;
+    width:50%;
     left: 30px;
     top: 0px;
     border-radius: nullpx;

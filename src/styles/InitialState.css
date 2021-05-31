@@ -3,8 +3,27 @@
     width: 210px;
     border-radius: 0px;
     position: absolute;
-    left: 578px;
-    top: 269px;
+    text-align:center;
+    top:40%;
+    left:42%;
+}
+
+@media screen and (max-width: 768px) {
+    .is-group-299{
+        left:37%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .is-group-299{
+        left:36%;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .is-group-299{
+        left:30%;
+    }
 }
 
 .is-group-icon-search{
@@ -43,4 +62,9 @@
     line-height: 140%;
     text-align: center;
     color: #808080;
+}
+
+.is-main-block{
+    /* text-align:center; */
+    /* top:100px; */
 }

@@ -3,8 +3,28 @@
     width: 210px;
     border-radius: 0px;
     position: absolute;
-    left: 578px;
-    top: 269px;
+    /* left: 578px;
+    top: 269px; */
+    top:40%;
+    left:42%;
+}
+
+@media screen and (max-width: 768px) {
+    .unf-group-299{
+        left:37%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .unf-group-299{
+        left:36%;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .unf-group-299{
+        left:30%;
+    }
 }
 
 .unf-group-icon-search{
