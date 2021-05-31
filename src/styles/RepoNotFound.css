@@ -3,8 +3,64 @@
     width: 243px;
     border-radius: 0px;
     position: absolute;
-    left: 751px;
+    left:55%;
     top: 269px;
+}
+
+@media screen and (max-width:863px){
+    .rnf-group-299{
+        margin-top: 300px;
+        left:38%;
+    }
+}
+
+@media screen and (max-width:820px){
+    .rnf-group-299{
+        left:36%;
+    }
+}
+
+@media screen and (max-width:670px){
+    .rnf-group-299{
+        left:32%;
+    }
+}
+
+@media screen and (max-width:580px){
+    .rnf-group-299{
+        left:29%;
+    }
+}
+
+@media screen and (max-width:540px){
+    .rnf-group-299{
+        left:26%;
+    }
+}
+
+@media screen and (max-width:455px){
+    .rnf-group-299{
+        left:21%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .rnf-group-299{
+        left:18%;
+    }
+}
+
+@media screen and (max-width:340px){
+    .rnf-group-299{
+        left:14%;
+    }
+}
+
+@media screen and (max-width:340px){
+    .rnf-group-299{
+        margin-top:380px;
+        left:12.7%;
+    }
 }
 
 .rnf-group-icon-search{
