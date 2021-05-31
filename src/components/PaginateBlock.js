@@ -17,7 +17,7 @@ class PaginateBlock extends React.Component {
 
     receivedData() {
         axios
-            .get(`https://api.github.com/users/repos`)
+            .get(`https://api.github.com/rate_limit`)
             .then(res => {
         const data = this.props.repoList;
         const slice = data.slice(this.state.offset, this.state.offset + this.state.perPage);
